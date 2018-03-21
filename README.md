@@ -6,7 +6,6 @@ Python script developed under the Social Media Analytics course project where we
 
 ```shell
 pip install facebook-sdk
-pib install pandas 
 ```
 
 ### How to use
@@ -21,7 +20,8 @@ Replace the searching words
 def main():
     # query by page id
     # search the pages ids here: https://lookup-id.com/
-    search(query='1726708387545466')
+    # https://www.facebook.com/fifaworldcup/
+    get_page_info('606721589343692')
 ```
 Execute the script
 
